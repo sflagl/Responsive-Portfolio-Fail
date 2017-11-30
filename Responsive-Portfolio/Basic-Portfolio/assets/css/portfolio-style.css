@@ -1,0 +1,54 @@
+
+.thumbnail-holder{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.thumbnail{
+	margin-bottom: -35px;
+}
+
+.thumbnail img{
+	width: 100%;
+	z-index: 1;
+}
+
+.thumbnail h3{
+	z-index: 2;
+	position: relative;
+	top:-80px;
+	text-align: center;
+	color:white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.thumbnail-holder .left{
+	width: 47.5%;
+}
+
+.thumbnail-holder .clear{
+	margin-right: 25px;
+
+}
+
+@media screen and (max-width: 980px){
+	.left{
+		float: none;
+	}
+
+	.thumbnail-holder .left{
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	.left{
+		float: left;
+	}
+
+	.thumbnail-holder .left{
+		width: 47.5%;
+	}
+}
